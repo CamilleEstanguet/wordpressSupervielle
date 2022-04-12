@@ -1,0 +1,56 @@
+/*!
+Theme Name: Pliska-Supervielle
+Author: Atanas Yonkov
+Description: theme based on pliska modified slightly for Jules Supervielle uses
+Version: 10.0.0
+Requires at least: 4.4
+Tested up to: 5.7
+Requires PHP: 5.2.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: pliska
+Tags: block-patterns, block-styles, blog, portfolio, e-commerce, custom-background, custom-colors, custom-header, custom-logo, custom-menu, featured-image-header, featured-images, flexible-header, footer-widgets, full-width-template, left-sidebar, one-column, two-columns, right-sidebar, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, wide-blocks
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Pliska is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/**
+ * This file is here to make WordPress happy. Do not modify.
+ *
+ * The actual stylesheets can be found in assets/css but this
+ * theme uses sass so they are preprocessed from assets/scss.
+ *
+ * If you want to add custom css to this theme, go to
+ * Theme Customizer => Additional CSS tab
+ */
+h1{
+	color #ffffff !important;
+}
+#header-page-title{
+	top: 70%;
+}
+.main-navigation{
+	float: initial;
+	width: auto;
+	outline:none;
+	}
+a:focus{
+	outline: 0;
+}
+.main-navigation a {
+	padding: 10px;
+}
+footer {
+	text-align: center;
+}
+
+.menu-item-handle{
+	background-color: darkgray;
+}
